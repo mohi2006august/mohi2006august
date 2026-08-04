@@ -26,6 +26,7 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 
 🔭 &nbsp;**Currently building** → AI-powered apps & scalable backends  
 🌱 &nbsp;**Learning** → Machine Learning · LLMs · Cloud Architecture  
+🏆 &nbsp;**Contributed to 7+ projects** in **ECSOC 2026**  
 💡 &nbsp;**Philosophy** → *"Ship fast, iterate faster."*  
 ⚡ &nbsp;**Fun fact** → I debug with `print()` first, then StackOverflow 😄  
 
@@ -92,7 +93,8 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mohi2006august&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&icon_color=bf91f3&text_color=c0caf5&ring_color=00d2ff" alt="GitHub Stats"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mohi2006august&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&icon_color=bf91f3&text_color=c0caf5&ring_color=00d2ff&cache_seconds=1800" alt="GitHub Stats"/>&nbsp;
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohi2006august&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&langs_count=8&cache_seconds=1800" alt="Top Languages"/>
 
 </div>
 
@@ -105,7 +107,7 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 ## 🏆 &nbsp;Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mohi2006august&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=mohi2006august&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="Trophies"/>
 </div>
 
 ---
