@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&random=false&width=650&lines=%F0%9F%9A%80+Building+products+people+love;%E2%9C%A6+Python+%C2%B7+React+%C2%B7+Next.js+%C2%B7+FastAPI+%C2%B7+Docker;%F0%9F%A7%A0+AI+%7C+Full+Stack+%7C+Cloud;%F0%9F%8C%B1+20+y%2Fo+%C2%B7+India+%F0%9F%87%AE%F0%9F%87%B3+%C2%B7+Open+to+Collaborate" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&duration=3000&pause=1200&color=00D2FF&center=true&vCenter=true&random=false&width=700&lines=Hi+%F0%9F%91%8B+I'm+Mohiuddin;Full+Stack+%26+AI+Developer+%F0%9F%9A%80;Building+products+people+love+%E2%9C%A6" alt="Typing SVG" />
 
 <br/>
 
@@ -14,9 +14,9 @@
 
 ---
 
-<img align="right" width="380px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohi2006august&layout=donut-vertical&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&langs_count=8&size_weight=0.5&count_weight=0.5"/>
-
 ## 🧑‍💻 &nbsp;About Me
+
+<img align="right" width="360px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohi2006august&layout=donut-vertical&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&langs_count=8"/>
 
 Hey! I'm **Mohiuddin** — a passionate developer from 🇮🇳 India who loves turning ambitious ideas into real, working products.
 
@@ -26,8 +26,8 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 
 🔭 &nbsp;**Currently building** → AI-powered apps & scalable backends  
 🌱 &nbsp;**Learning** → Machine Learning · LLMs · Cloud Architecture  
+💡 &nbsp;**Philosophy** → *"Ship fast, iterate faster."*  
 ⚡ &nbsp;**Fun fact** → I debug with `print()` first, then StackOverflow 😄  
-💡 &nbsp;**Philosophy** → *"Ship fast, iterate faster."*
 
 <br/>
 
@@ -50,29 +50,6 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 
 ---
 
-## 📊 &nbsp;3D Contribution Graph
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph"/>
-</div>
-
----
-
-## ⚡ &nbsp;GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mohi2006august&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&icon_color=bf91f3&text_color=c0caf5&ring_color=00d2ff" alt="GitHub Stats"/>&nbsp;
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=mohi2006august&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=21262d&ring=00d2ff&fire=f78166&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00d2ff&sideLabels=8b949e&dates=565f89" alt="Streak"/>
-
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohi2006august&bg_color=0d1117&color=00d2ff&line=21262d&point=00d2ff&area=true&area_color=00d2ff&hide_border=true&radius=6&custom_title=📈+Mohiuddin's+Contribution+Graph" width="98%" alt="Activity Graph"/>
-</div>
-
----
-
 ## 🛠 &nbsp;Tech Stack
 
 <div align="center">
@@ -89,6 +66,38 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 ### 🔧 Tools
 <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman,figma,bash&theme=dark&perline=7" />
 
+</div>
+
+---
+
+## 🔥 &nbsp;Streak Stats
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohi2006august&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=21262d&ring=00d2ff&fire=f78166&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00d2ff&sideLabels=8b949e&dates=565f89" alt="Streak Stats"/>
+</div>
+
+---
+
+## 📊 &nbsp;3D Contribution Graph
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph"/>
+</div>
+
+> ⚡ Auto-updated every night at midnight IST via GitHub Actions
+
+---
+
+## ⚡ &nbsp;GitHub Stats & Activity
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mohi2006august&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&icon_color=bf91f3&text_color=c0caf5&ring_color=00d2ff" alt="GitHub Stats"/>
+
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohi2006august&bg_color=0d1117&color=00d2ff&line=21262d&point=00d2ff&area=true&area_color=00d2ff&hide_border=true&radius=6&custom_title=📈+Mohiuddin's+Contribution+Graph" width="98%" alt="Activity Graph"/>
 </div>
 
 ---
@@ -117,7 +126,7 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 
 <div align="center">
 
-[![SkillSprint](https://github-readme-stats.vercel.app/api/pin/?username=mohi2006august&repo=SkillSprint&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&icon_color=bf91f3&border_color=21262d)](https://github.com/mohi2006august/SkillSprint)
+[![SkillSprint](https://github-readme-stats.vercel.app/api/pin/?username=mohi2006august&repo=SkillSprint&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&icon_color=bf91f3)](https://github.com/mohi2006august/SkillSprint)
 
 </div>
 
@@ -135,6 +144,6 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00d2ff&height=100&section=footer&reversal=false" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00d2ff&height=100&section=footer" width="100%"/>
 
 </div>
