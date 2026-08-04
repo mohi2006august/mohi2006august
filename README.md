@@ -1,8 +1,4 @@
 <div align="center">
-  <img src="./banner.png" width="100%" alt="Mohiuddin — Full Stack & AI Developer"/>
-</div>
-
-<div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&random=false&width=650&lines=%F0%9F%9A%80+Building+products+people+love;%E2%9C%A6+Python+%C2%B7+React+%C2%B7+Next.js+%C2%B7+FastAPI+%C2%B7+Docker;%F0%9F%A7%A0+AI+%7C+Full+Stack+%7C+Cloud;%F0%9F%8C%B1+20+y%2Fo+%C2%B7+India+%F0%9F%87%AE%F0%9F%87%B3+%C2%B7+Open+to+Collaborate" alt="Typing SVG" />
 
