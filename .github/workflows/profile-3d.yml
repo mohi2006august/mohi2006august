@@ -1,0 +1,43 @@
+name: 📊 Generate 3D Contribution Graph
+
+on:
+  schedule:
+    # Runs daily at 6:30 PM UTC = midnight IST
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate 3D Contribution Graph
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: |
+            {
+              "githubUserName": "mohi2006august",
+              "fileName": "profile-night-rainbow.svg",
+              "backgroundColor": "#000014",
+              "foregroundColor": "#c0caf5",
+              "settings": {
+                "contributionTypes": ["commitContributionsByRepository", "issueContributions", "pullRequestContributions", "pullRequestReviewContributions"]
+              }
+            }
+
+      - name: Commit and push the generated SVG
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A .
+          git commit -m "🔄 Auto-update: 3D contribution graph [$(date +'%Y-%m-%d')]" || exit 0
+          git push
