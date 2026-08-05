@@ -74,7 +74,7 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 ## 🔥 &nbsp;Streak Stats
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohi2006august&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=21262d&ring=00d2ff&fire=f78166&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00d2ff&sideLabels=8b949e&dates=565f89" alt="Streak Stats"/>
+  <img src="https://streak-stats.demolab.com/?user=mohi2006august&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=21262d&ring=00d2ff&fire=f78166&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00d2ff&sideLabels=8b949e&dates=565f89" alt="Streak Stats"/>
 </div>
 
 ---
