@@ -104,14 +104,6 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 
 ---
 
-## 🏆 &nbsp;Trophies
-
-<div align="center">
-  <img src="https://github-trophies.vercel.app/?username=mohi2006august&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="Trophies"/>
-</div>
-
----
-
 ## 🐍 &nbsp;Watch My Contributions Get Eaten
 
 <div align="center">
