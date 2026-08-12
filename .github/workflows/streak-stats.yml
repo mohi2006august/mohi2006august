@@ -1,0 +1,42 @@
+name: 🔥 Generate Streak Stats
+
+on:
+  schedule:
+    # Runs daily at 6:45 PM UTC = midnight + 15 mins IST (aligned with other tasks)
+    - cron: "45 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/streak-stats.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate Streak Stats SVG
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=mohi2006august&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00d2ff&ring=00d2ff&fire=f78166&currStreakLabel=00d2ff&sideLabels=c0caf5&dates=c0caf5&sideNums=ffffff&currStreakNum=ffffff
+          path: profile-streak-contrib/streak-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push the generated SVG
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add profile-streak-contrib/streak-stats.svg
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Auto-update streak stats [skip ci]"
+          git pull --rebase origin main
+          git push origin main

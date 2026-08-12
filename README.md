@@ -74,7 +74,7 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 ## 🔥 &nbsp;Streak Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=mohi2006august&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00d2ff&ring=00d2ff&fire=f78166&currStreakLabel=00d2ff&sideLabels=c0caf5&dates=c0caf5&sideNums=ffffff&currStreakNum=ffffff" alt="GitHub Streak Stats" width="60%"/>
+  <img src="./profile-streak-contrib/streak-stats.svg" alt="GitHub Streak Stats" width="60%"/>
 </div>
 
 ---
