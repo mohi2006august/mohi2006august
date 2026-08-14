@@ -16,7 +16,7 @@
 
 ## 🧑‍💻 &nbsp;About Me
 
-<img align="right" width="360px" src="https://stats.raj.moe/api/top-langs/?username=mohi2006august&layout=donut-vertical&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&langs_count=8"/>
+<img align="right" width="360px" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mohi2006august&layout=donut-vertical&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&langs_count=8"/>
 
 Hey! I'm **Mohiuddin** — a passionate developer from 🇮🇳 India who loves turning ambitious ideas into real, working products.
 
@@ -93,8 +93,8 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 
 <div align="center">
 
-<img height="180em" src="https://stats.raj.moe/api?username=mohi2006august&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&icon_color=bf91f3&text_color=c0caf5&ring_color=00d2ff" alt="GitHub Stats"/>&nbsp;
-<img height="180em" src="https://stats.raj.moe/api/top-langs/?username=mohi2006august&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&langs_count=8" alt="Top Languages"/>
+<img height="180em" src="https://github-stats-extended.vercel.app/api?username=mohi2006august&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&icon_color=bf91f3&text_color=c0caf5&ring_color=00d2ff" alt="GitHub Stats"/>&nbsp;
+<img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mohi2006august&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&langs_count=8" alt="Top Languages"/>
 
 </div>
 
@@ -120,7 +120,7 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 
 <div align="center">
 
-[![SkillSprint](https://stats.raj.moe/api/pin/?username=mohi2006august&repo=SkillSprint&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&icon_color=bf91f3)](https://github.com/mohi2006august/SkillSprint)
+[![SkillSprint](https://github-stats-extended.vercel.app/api/pin/?username=mohi2006august&repo=SkillSprint&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&icon_color=bf91f3)](https://github.com/mohi2006august/SkillSprint)
 
 </div>
 
