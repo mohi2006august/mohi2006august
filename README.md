@@ -16,7 +16,6 @@
 
 ## 🧑‍💻 &nbsp;About Me
 
-<img align="right" width="360px" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mohi2006august&layout=donut-vertical&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d2ff&text_color=c0caf5&langs_count=8"/>
 
 Hey! I'm **Mohiuddin** — a passionate developer from 🇮🇳 India who loves turning ambitious ideas into real, working products.
 
@@ -46,8 +45,6 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 <a href="https://mohiuddin18.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
-
-<br clear="right"/>
 
 ---
 
