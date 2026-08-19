@@ -17,7 +17,7 @@
 ## 🧑‍💻 &nbsp;About Me
 
 
-Hey! I'm **Mohiuddin** — a passionate developer from 🇮🇳 India who loves turning ambitious ideas into real, working products.
+Hey! I'm **Mohammed Mohiuddin** — a passionate developer from 🇮🇳 India who loves turning ambitious ideas into real, working products.
 
 I specialize in **Full Stack Development** and **AI-powered applications**, with a strong eye for performance, clean code, and seamless user experiences.
 
