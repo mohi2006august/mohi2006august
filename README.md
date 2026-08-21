@@ -25,8 +25,7 @@ I specialize in **Full Stack Development** and **AI-powered applications**, with
 
 🔭 &nbsp;**Currently building** → AI-powered apps & scalable backends  
 🌱 &nbsp;**Learning** → Machine Learning · LLMs · Cloud Architecture  
-🏆 &nbsp;**Contributed to 10+ projects** in **ECSOC 2026**  
-💡 &nbsp;**Philosophy** → *"Ship fast, iterate faster."*    
+🏆 &nbsp;**Contributed to 10+ projects** in **ECSOC 2026**   
 
 <br/>
 
