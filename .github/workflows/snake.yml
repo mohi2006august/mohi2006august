@@ -38,5 +38,7 @@ jobs:
           target_branch: output
           build_dir: dist
           commit_message: "chore(snake): auto-update contribution snake animation [skip ci]"
+          committer: "mohi2006august <nizamuddinnumaan822@gmail.com>"
+          author: "mohi2006august <nizamuddinnumaan822@gmail.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

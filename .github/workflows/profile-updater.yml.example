@@ -9,6 +9,7 @@
 # - Generates 3D graph + Streak stats together in ONE clean commit (50% fewer commits)
 # - Eliminates scheduling race conditions and git rebase collisions
 # - Runs Snake generation in parallel without delaying profile assets
+# - All commits are authored by you so they count toward your GitHub contribution graph
 # ==============================================================================
 
 name: 🚀 Profile Automation
@@ -61,8 +62,8 @@ jobs:
 
       - name: 🚀 Commit and push changes
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "mohi2006august"
+          git config --local user.email "nizamuddinnumaan822@gmail.com"
           
           git add profile-3d-contrib/ profile-streak-contrib/
           
@@ -71,7 +72,7 @@ jobs:
             exit 0
           fi
           
-          git commit -m "chore(profile): auto-update contribution graph & streak stats [skip ci]"
+          git commit --author="mohi2006august <nizamuddinnumaan822@gmail.com>" -m "chore(profile): auto-update contribution graph & streak stats [skip ci]"
           git pull --rebase --autostash origin main
           git push origin main
 
@@ -100,5 +101,7 @@ jobs:
           target_branch: output
           build_dir: dist
           commit_message: "chore(snake): auto-update contribution snake animation [skip ci]"
+          committer: "mohi2006august <nizamuddinnumaan822@gmail.com>"
+          author: "mohi2006august <nizamuddinnumaan822@gmail.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
