@@ -1,0 +1,104 @@
+# ==============================================================================
+# 🚀 Unified Profile Master Automation
+# ==============================================================================
+# If you want ONE single consolidated workflow instead of 3 separate workflows,
+# rename this file to "profile-updater.yml" and remove the separate files
+# (profile-3d.yml, streak-stats.yml, snake.yml).
+#
+# Benefits:
+# - Generates 3D graph + Streak stats together in ONE clean commit (50% fewer commits)
+# - Eliminates scheduling race conditions and git rebase collisions
+# - Runs Snake generation in parallel without delaying profile assets
+# ==============================================================================
+
+name: 🚀 Profile Automation
+
+on:
+  schedule:
+    # Runs daily at 18:30 UTC (00:00 midnight IST)
+    - cron: "30 18 * * *"
+  workflow_dispatch: # Allows manual trigger anytime from GitHub Actions tab
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-updater.yml"
+
+concurrency:
+  group: profile-automation-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  # ------------------------------------------------------------------
+  # Job 1: Generate 3D Contributions & Streak Stats (Single Atomic Commit)
+  # ------------------------------------------------------------------
+  profile-assets:
+    name: 📊 Update 3D Graph & Streak Stats
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 📈 Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: 🔥 Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: >-
+            user=${{ github.repository_owner }}&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00d2ff&ring=00d2ff&fire=f78166&currStreakLabel=00d2ff&sideLabels=c0caf5&dates=c0caf5&sideNums=ffffff&currStreakNum=ffffff
+          path: profile-streak-contrib/streak-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🚀 Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add profile-3d-contrib/ profile-streak-contrib/
+          
+          if git diff --staged --quiet; then
+            echo "✅ No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "chore(profile): auto-update contribution graph & streak stats [skip ci]"
+          git pull --rebase --autostash origin main
+          git push origin main
+
+  # ------------------------------------------------------------------
+  # Job 2: Generate Snake Animation (Parallel Execution)
+  # ------------------------------------------------------------------
+  snake-animation:
+    name: 🐍 Generate Snake Animation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: 🐍 Generate Snake (light & dark)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: 🚀 Push Snake to Output Branch
+        uses: crazy-max/ghaction-github-pages@v4.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore(snake): auto-update contribution snake animation [skip ci]"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
